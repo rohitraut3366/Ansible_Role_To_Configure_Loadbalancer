@@ -1,0 +1,7 @@
+- hosts: lb
+  roles:
+      - role: loadBalancer
+
+- hosts: web
+  roles:
+      - role: lbweb
